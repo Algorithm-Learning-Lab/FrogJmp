@@ -1,0 +1,8 @@
+def solution(X, Y, D):
+  import math
+  if X > 10 ** 9 or Y > 10 ** 9 or D > 10 ** 9 or X > Y:
+    return "There are some errors."
+  else :
+    return math.ceil((Y-X)/D)
+
+print(solution(2,10,3))
