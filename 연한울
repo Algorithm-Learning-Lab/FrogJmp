@@ -1,4 +1,4 @@
 import math 
-def solution(X,Y,D):
+def solution(X, Y, D):
   jump = math.ceil((Y-X)/D)
   return jump
